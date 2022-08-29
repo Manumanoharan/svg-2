@@ -1,0 +1,35 @@
+
+
+#svg-1{
+    position: absolute;
+    transform: scale(0.2);
+animation-name: anim-1;
+animation-duration: 10s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-delay: 0.5S;
+}
+@keyframes anim-1{
+    0%{
+        transform: scale(0.2);
+    }
+    10%{
+        transform: scale(0.3) translateX(60px) rotateX(45deg);
+    }
+    20%{
+        transform: scale(0.4) translateX(120px) rotateX(90deg);
+    }
+    40%{
+        transform: scale(0.6) translateX(240px) rotateX(180deg);
+    }
+    60%{
+        transform: scale(0.8) translateX(300px) rotateX(240deg);
+    }
+    80%{
+        transform: scale(0.9) translateX(360px) rotateX(300deg);
+    }
+    100%{
+        transform: scale(1) translateX(420px) rotateX(390deg);
+  
+    }
+} 
